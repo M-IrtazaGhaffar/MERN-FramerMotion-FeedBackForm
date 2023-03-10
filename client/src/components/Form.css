@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form
+{
+    width: 400px;
+    height: 550px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.f1, .f2, .f3, .f4
+{
+    padding: 5px 0;
+}
+
+label{
+    font-weight: lighter;
+    display: block;
+    padding:  0 0 3px 0;
+    font-size: 13px;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.75);
+    font-size: 14px;
+}
+
+input:focus, textarea:focus
+{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+textarea
+{
+    resize: none;
+}
+
+.f3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f3 label
+{
+    padding: 0;
+}
+
+.f4{
+    padding-bottom: 0;
+}
+
+select{
+    padding: 5px 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.75);
+}
+
+option{
+    border: 1px solid rgba(128, 128, 128, 0.75);
+    padding: 5px;
+    border-radius: none;
+}
+
+button
+{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(25,25,115);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
